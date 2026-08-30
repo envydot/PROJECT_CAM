@@ -2,57 +2,28 @@
 
 A comprehensive collection of computer vision applications built with Python, OpenCV, and MediaPipe. This project includes gesture recognition, hand tracking, face detection, and interactive applications powered by real-time camera input.
 
-## Features 🚀
+## Project Highlights 🚀
 
-### Core Applications
+| Project | Description | Tech |
+|---------|-------------|------|
+| **Virtual Drawing Board** | Draw in the air with index-finger tracking + gesture color palette & brush control | OpenCV, MediaPipe, NumPy |
+| **Gesture Volume Control** | Real-time system volume control via pinch distance | OpenCV, MediaPipe, pycaw |
+| **PPT Gesture Controller** | Swipe/pinch to change slides and zoom in PowerPoint | OpenCV, MediaPipe, PyAutoGUI |
+| **Drowsiness & Face Cover Alert** | EAR-based drowsiness detection + face covering alerts with configurable alarms | MediaPipe Face Mesh |
+| **Risk Analyzer Dashboard** | Interactive AI-driven risk analytics dashboard | Python, Streamlit / data tools |
 
-1. **Finger Counter** (`01_finger_counter.py`)
-   - Real-time hand detection and finger counting
-   - Uses MediaPipe hand tracking for accurate gesture recognition
+### Included Computer Vision Modules
 
-2. **Virtual Mouse** (`02_virtual_mouse.py`)
-   - Control your mouse cursor with hand gestures
-   - Intuitive gesture-based interaction without physical input devices
+This repository also contains additional gesture and vision experiments built around the same hand-tracking and face-recognition core:
 
-3. **Volume Control** (`03_volume_control.py`)
-   - Adjust system volume using hand gestures
-   - Real-time audio control through camera input
-
-4. **Brightness Control** (`04_brightness_control.py`)
-   - Control screen brightness with hand gestures
-   - Seamless desktop display adjustment
-
-5. **Rock, Paper, Scissors** (`05_rock_paper_scissors.py`)
-   - Play the classic game against the computer using hand gestures
-   - Real-time hand gesture classification
-
-6. **Drawing Board** (`06_drawing_board.py`)
-   - Draw on a virtual canvas using your fingers
-   - Creative digital art with gesture control
-
-7. **Gesture Presentation** (`07_gesture_presentation.py`)
-   - Navigate presentations using hand gestures
-   - Control slides without keyboard or mouse
-
-8. **Gesture Media Player** (`08_gesture_media_player.py`)
-   - Control media playback (play, pause, next, previous) with gestures
-   - Hands-free multimedia control
-
-9. **Mask Detection** (`09_mask_detection.py`)
-   - Detect whether people are wearing face masks
-   - Uses TensorFlow/Keras for deep learning classification
-
-10. **Face Attendance System** (`10_face_attendance.py`)
-    - Automated attendance tracking using facial recognition
-    - Identify and log individuals in real-time
-
-11. **Drowsiness Detection** (`11_drowsiness_detection.py`)
-    - Monitor driver alertness and detect drowsiness
-    - Eye Aspect Ratio (EAR) based detection algorithm
-
-12. **Sign Language Recognition** (`12_sign_language.py`)
-    - Recognize and translate sign language gestures
-    - Machine learning classifier for gesture interpretation
+- **Finger Counter** (`01_finger_counter.py`)
+- **Virtual Mouse** (`02_virtual_mouse.py`)
+- **Brightness Control** (`04_brightness_control.py`)
+- **Rock Paper Scissors** (`05_rock_paper_scissors.py`)
+- **Gesture Media Player** (`08_gesture_media_player.py`)
+- **Mask Detection** (`09_mask_detection.py`)
+- **Face Attendance System** (`10_face_attendance.py`)
+- **Sign Language Recognition** (`12_sign_language.py`)
 
 ## Technology Stack 🛠️
 
